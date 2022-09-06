@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(100, 78, 197) 16.62%, rgb(68, 66, 77)85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+
+}
+.cabecalho-menu-item{
+    font-family: 'Silkscreen', cursive;
+    color: azure;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgb(243, 230, 230) ; 
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: azure;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: azure;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: blanchedalmond;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgb(218, 218, 192);
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    gap: 24px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid rgb(243, 230, 230) ;
+    padding-top: 48px;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: azure;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 16px;
+    color: azure;
+}
+
+
+.rodape{
+    border-top: 0.4px solid rgb(243, 230, 230) ; 
+    padding: 32px;
+}
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    
+}
